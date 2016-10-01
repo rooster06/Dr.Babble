@@ -13,38 +13,39 @@ MIMIC dataset though open requires you to gain access by completing a few steps,
 
 The R script helps you create a short ECG report based on Ngram language models made on 209,051 ECG report data available in the MIMIC III v1.3 database. Making Ngrams on ECG Reports was easy because the text was just continous notes and not a structured document with various fields like in other reports. This meant less cleaning and data wrangling. An example, one of the ECG Report from the data is shown below:
 
-"Atrial fibrillation with rapid ventricular response.  Inferior myocardial infarction, age undetermined.  Lateral ST-T wave changes may be due to myocardial ischemia or repolarization abnormality.  Clinical correlation is suggested.  Compared to the [\\*\\* Location \\*\\*]us tracing of [\\*\\*2820-7-23\\*\\*] the rhythm is now consistently atrial fibrillation and the rate has increased."
+"Atrial fibrillation with rapid ventricular response.  Inferior myocardial infarction, age undetermined.  Lateral ST-T wave changes may be due to myocardial ischemia or repolarization abnormality.  Clinical correlation is suggested.  Compared to the [\*\* Location \*\*]us tracing of [\*\*2820-7-23\*\*] the rhythm is now consistently atrial fibrillation and the rate has increased."
 
 Two examples of reports generated for each unigram, bigram and trigram models are shown below:
 
 * Unigram
 
-ex.1.
+  ex.1.
 
-"arms) No significant change from tracing no diagnostic interval are small R waves are new. TRACING # Sinus tachycardia. Baseline artifact. Underlying sinus rhythm. Compared to the us tracing of "
+  "arms) No significant change from tracing no diagnostic interval are small R waves are new. TRACING # Sinus tachycardia. Baseline artifact. Underlying sinus rhythm. Compared to the us tracing of "
 
-ex.2.
+  ex.2.
 
-"wavechanges improved but the right axis deviation Conduction defect Inferior Q waves. Delayed R wave abnormalities were present and ST-T wave and aVF is suggested. TRACING # Sinus rhythm. The "
+  "wavechanges improved but the right axis deviation Conduction defect Inferior Q waves. Delayed R wave abnormalities were present and ST-T wave and aVF is suggested. TRACING # Sinus rhythm. The "
 
 * Bigram
 
-ex.1.
+  ex.1.
 
-"strain. Diffuse non-diagnostic repolarization abnormalities. Low voltage in leads aVL and V raising questions of inferior myocardial infarction of indeterminate age. Poor R wave transition in lead aVF is now "
+  "strain. Diffuse non-diagnostic repolarization abnormalities. Low voltage in leads aVL and V raising questions of inferior myocardial infarction of indeterminate age. Poor R wave transition in lead aVF is now "
 
-ex.2.
+  ex.2.
 
-“\\*\\*\\* Nonspecific ST-T changes are present. TRACING # Sinus rhythm. Baseline artifact. Sinus rhythm. Low limb lead voltage. Slightly delayed precordial R wave progression Consider anteroseptal infarct Low QRS voltage. "
+  “\*\*\* Nonspecific ST-T changes are present. TRACING # Sinus rhythm. Baseline artifact. Sinus rhythm. Low limb lead voltage. Slightly delayed precordial R wave progression Consider anteroseptal infarct Low QRS voltage. "
 
 * Trigram
 
-ex.1.
+  ex.1.
 
-"complex with ventricular pacer and fusion beats. Compared to the us tracing no significant change. Sinus rhythm with PACs Since us tracing, no significant change Irregular wide complex rhythjm with "
+  "complex with ventricular pacer and fusion beats. Compared to the us tracing no significant change. Sinus rhythm with PACs Since us     tracing, no significant change Irregular wide complex rhythjm with "
 
-ex.2.
-"complex tachycardia. Consider supraventricular tachycardia with varying block. Diffuse non-specific ST-T wave changes. No us tracing available for comparison. Sinus rhythm. Left axis deviation - could be in part early "
+  ex.2.
+
+  "complex tachycardia. Consider supraventricular tachycardia with varying block. Diffuse non-specific ST-T wave changes. No us tracing available for comparison. Sinus rhythm. Left axis deviation - could be in part early "
 
 
 Additionnaly the script creates a wordCloud for the ECG report data. Stopwords were removed.
