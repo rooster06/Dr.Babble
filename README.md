@@ -9,7 +9,7 @@ Of the available tables in mimic one was particularly interesting for NLP purpos
 
 And ofcourse, I thought it would be fun to make Ngram models on the doctor notes and have the computer babble a note by iteself. Simple language models like Ngrams are known for generating amusing but senseless text, and the function in R used to generate text from a constructed Ngram is called babble, hence the name Dr.Babble. 
 
-MIMIC dataset though open requires you to gain access by completing a few steps, so I wont be sharing the data used here. You can request access to mimic database at https://mimic.physionet.org. Once you have access to the dataset you can use the sql script in this repository pull the required data from your mimic 3 database. I used the MIMIC III version 1.3 in this fun experiment. 
+MIMIC dataset though open, requires you to gain access by completing a few steps, so I wont be sharing the data used here. You can request access to mimic database at https://mimic.physionet.org. Once you have access to the dataset you can use the sql script in this repository pull the required data from your mimic 3 database. I used the MIMIC III version 1.3 in this fun experiment. 
 
 The R script helps you create a short ECG report based on Ngram language models made on 209,051 ECG report data available in the MIMIC III v1.3 database. Making Ngrams on ECG Reports was easy because the text was just continous notes and not a structured document with various fields like in other reports. This meant less cleaning and data wrangling. An example, one of the ECG Report from the data is shown below:
 
