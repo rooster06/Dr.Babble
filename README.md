@@ -59,3 +59,6 @@ Future work:
 * Use better language models. 
 
 
+Ackwnoledgements:
+
+MIMIC-III, a freely accessible critical care database. Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, and Mark RG. Scientific Data (2016). DOI: 10.1038/sdata.2016.35.
