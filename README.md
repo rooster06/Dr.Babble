@@ -47,6 +47,7 @@ Two examples of reports generated for each unigram, bigram and trigram models ar
 
   "complex tachycardia. Consider supraventricular tachycardia with varying block. Diffuse non-specific ST-T wave changes. No us tracing available for comparison. Sinus rhythm. Left axis deviation - could be in part early "
 
+### WordCloud
 
 Additionnaly the script creates a wordCloud for the ECG report data. Stopwords were removed.
 
