@@ -7,7 +7,7 @@ Of the available tables in mimic one was particularly interesting for NLP purpos
 
 ![alt tag](https://github.com/rooster06/Dr.Babble/blob/master/note-stats.png)
 
-And ofcourse, I thought it would be fun to make Ngram models on the doctor notes and have the computer babble a note by iteself.
+And ofcourse, I thought it would be fun to make Ngram models on the doctor notes and have the computer babble a note by iteself. Simple language models like Ngrams are known for generating amusing but senless text, and the function in R used to generate text from a constructed Ngram is called babble, hence the name Dr.Babble. 
 
 MIMIC dataset though open requires you to gain access by completing a few steps, so I wont be sharing the data used here. You can request access to mimic database at https://mimic.physionet.org. Once you have access to the dataset you can use the sql script in this repository pull the required data from your mimic 3 database. I used the MIMIC III version 1.3 in this fun experiment. 
 
