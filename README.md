@@ -1,5 +1,5 @@
 # Dr.Babble
-Ngram Language Models &amp; WordClouds on hospital ECG Notes
+## Ngram Language Models &amp; WordClouds on hospital ECG Notes
 
 MIMIC III is an openly available dataset developed by the MIT Lab for Computational Physiology, comprising deidentified health data associated with >40,000 critical care patients. It includes demographics, vital signs, laboratory tests, medications, and more.
 
@@ -17,7 +17,7 @@ The R script helps you create a short ECG report based on Ngram language models 
 
 Two examples of reports generated for each unigram, bigram and trigram models are shown below:
 
-* Unigram
+### * Unigram
 
   ex.1.
 
@@ -27,7 +27,7 @@ Two examples of reports generated for each unigram, bigram and trigram models ar
 
   "wavechanges improved but the right axis deviation Conduction defect Inferior Q waves. Delayed R wave abnormalities were present and ST-T wave and aVF is suggested. TRACING # Sinus rhythm. The "
 
-* Bigram
+### * Bigram
 
   ex.1.
 
@@ -37,7 +37,7 @@ Two examples of reports generated for each unigram, bigram and trigram models ar
 
   “\*\*\* Nonspecific ST-T changes are present. TRACING # Sinus rhythm. Baseline artifact. Sinus rhythm. Low limb lead voltage. Slightly delayed precordial R wave progression Consider anteroseptal infarct Low QRS voltage. "
 
-* Trigram
+### * Trigram
 
   ex.1.
 
@@ -52,7 +52,7 @@ Additionnaly the script creates a wordCloud for the ECG report data. Stopwords w
 
 ![alt tag](https://github.com/rooster06/Dr.Babble/blob/master/ECG.png)
 
-Future work:
+### Future work:
 
 * Try to create language models on something more structurally more complicated (data wrangling wise) like discharge summary reports and be able to babble an entire structured report.
 
