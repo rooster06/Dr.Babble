@@ -3,7 +3,7 @@
 
 MIMIC III is an openly available dataset developed by the MIT Lab for Computational Physiology, comprising deidentified health data associated with >40,000 critical care patients. It includes demographics, vital signs, laboratory tests, medications, and more.
 
-Of the available tables in mimic one was particularly interesting for NLP purposes, the NOTEEVENTS table. This table contains all the doctor reports, nurse reports etc.; texual information for patients in the database. Some of the most frequently occuring reports in the table are shown below, (category and descriptions fields in NOTEEVENTS together describe the type of text):
+Of the available tables in mimic one was particularly interesting for NLP purposes, the NOTEEVENTS table. This table contains all the doctor reports, nurse reports etc.; textual information for patients in the database. Some of the most frequently occuring reports in the table are shown below, (category and descriptions fields in NOTEEVENTS together describe the type of text):
 
 ![alt tag](https://github.com/rooster06/Dr.Babble/blob/master/note-stats.png)
 
