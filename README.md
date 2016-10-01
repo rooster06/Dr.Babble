@@ -54,7 +54,7 @@ Additionnaly the script creates a wordCloud for the ECG report data. Stopwords w
 
 ### Future work:
 
-* Try to create language models on something more structurally more complicated (data wrangling wise) like discharge summary reports and be able to babble an entire structured report.
+* Try to create language models on something structurally more complicated (data wrangling wise) like discharge summary reports and be able to babble an entire structured report.
 
 * Use better language models. 
 
